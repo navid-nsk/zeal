@@ -1,0 +1,39 @@
+# ZEAL — Python dependencies (pinned to the versions used for the paper).
+# Python 3.12, Linux/Windows, a single CUDA 12.8 GPU.
+# NOTE: auto_LiRPA is installed from source (PyPI is stale); see the line below.
+
+# --- core numerics / ML ---
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.3
+scikit-learn==1.8.0
+matplotlib==3.10.9
+
+# --- deep learning (install the CUDA 12.8 build from the PyTorch index) ---
+# pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+
+# --- certified Lipschitz bounds (Jacobian bound propagation) ---
+# install from source, no deps (the PyPI release lacks the Jacobian operator):
+#   pip install --no-deps "git+https://github.com/Verified-Intelligence/auto_LiRPA.git"
+# plus its light runtime deps:
+appdirs
+pyyaml
+# auto_LiRPA==0.7.2   (provided by the git install above)
+
+# --- optimal transport (the sliver-robust transport metric) ---
+POT==0.9.6.post1
+
+# --- semidefinite LipSDP baseline ---
+cvxpy            # solved with CLARABEL
+
+# --- geospatial (nested-ladder construction + rasterization) ---
+geopandas==1.1.3
+rasterio==1.5.0
+pyproj==3.7.2
+shapely==2.1.2
+fiona==1.10.1
+
+# --- optional: figure PDF/format utilities (not needed to run experiments) ---
+# pymupdf
+# pypdf

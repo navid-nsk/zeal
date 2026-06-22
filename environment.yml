@@ -1,0 +1,26 @@
+name: zeal
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.4
+  - scipy=1.17
+  - pandas=3.0
+  - scikit-learn=1.8
+  - matplotlib=3.10
+  # geospatial (conda-forge resolves GDAL/PROJ cleanly)
+  - geopandas=1.1
+  - rasterio=1.5
+  - pyproj=3.7
+  - shapely=2.1
+  - fiona=1.10
+  - cvxpy
+  - pip
+  - pip:
+      # CUDA 12.8 PyTorch — install from the PyTorch index:
+      #   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+      - POT==0.9.6.post1
+      - appdirs
+      - pyyaml
+      # auto_LiRPA from source (PyPI release lacks the Jacobian bound op):
+      - "git+https://github.com/Verified-Intelligence/auto_LiRPA.git"
