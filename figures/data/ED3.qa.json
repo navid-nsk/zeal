@@ -1,0 +1,2720 @@
+{
+ "stem": "ED3",
+ "script": "ED3.py",
+ "canvas": {
+  "w": 180.0,
+  "h": 155.0
+ },
+ "audit": [],
+ "pax": [
+  {
+   "name": "a_auc",
+   "x": 22.6,
+   "y_top": 13.6,
+   "w": 23.4,
+   "h": 33.2,
+   "inset_of": null
+  },
+  {
+   "name": "b_value_mlp",
+   "x": 71.0,
+   "y_top": 14.0,
+   "w": 34.5,
+   "h": 12.6,
+   "inset_of": null
+  },
+  {
+   "name": "b_incr1_mlp",
+   "x": 71.0,
+   "y_top": 34.2,
+   "w": 34.5,
+   "h": 12.6,
+   "inset_of": null
+  },
+  {
+   "name": "b_value_feat",
+   "x": 107.5,
+   "y_top": 14.0,
+   "w": 34.5,
+   "h": 12.6,
+   "inset_of": null
+  },
+  {
+   "name": "b_incr1_feat",
+   "x": 107.5,
+   "y_top": 34.2,
+   "w": 34.5,
+   "h": 12.6,
+   "inset_of": null
+  },
+  {
+   "name": "b_value_feat24",
+   "x": 144.0,
+   "y_top": 14.0,
+   "w": 34.5,
+   "h": 12.6,
+   "inset_of": null
+  },
+  {
+   "name": "b_incr1_feat24",
+   "x": 144.0,
+   "y_top": 34.2,
+   "w": 34.5,
+   "h": 12.6,
+   "inset_of": null
+  },
+  {
+   "name": "c_0.01",
+   "x": 19.6,
+   "y_top": 67.4,
+   "w": 35.2,
+   "h": 28.2,
+   "inset_of": null
+  },
+  {
+   "name": "c_0.1",
+   "x": 58.8,
+   "y_top": 67.4,
+   "w": 35.2,
+   "h": 28.2,
+   "inset_of": null
+  },
+  {
+   "name": "d_settled",
+   "x": 117.0,
+   "y_top": 67.4,
+   "w": 27.0,
+   "h": 28.2,
+   "inset_of": null
+  },
+  {
+   "name": "d_lp",
+   "x": 151.5,
+   "y_top": 67.4,
+   "w": 27.0,
+   "h": 28.2,
+   "inset_of": null
+  },
+  {
+   "name": "e_exact",
+   "x": 19.6,
+   "y_top": 116.80000000000001,
+   "w": 25.6,
+   "h": 28.2,
+   "inset_of": null
+  },
+  {
+   "name": "f_sc_synthetic",
+   "x": 73.0,
+   "y_top": 116.80000000000001,
+   "w": 18.5,
+   "h": 28.2,
+   "inset_of": null
+  },
+  {
+   "name": "f_sc_jul2014",
+   "x": 93.5,
+   "y_top": 116.80000000000001,
+   "w": 18.5,
+   "h": 28.2,
+   "inset_of": null
+  },
+  {
+   "name": "f_sc_jan2014",
+   "x": 114.0,
+   "y_top": 116.80000000000001,
+   "w": 18.5,
+   "h": 28.2,
+   "inset_of": null
+  },
+  {
+   "name": "f_hist",
+   "x": 143.0,
+   "y_top": 116.80000000000001,
+   "w": 35.5,
+   "h": 28.2,
+   "inset_of": null
+  }
+ ],
+ "notes": [
+  "12 of 135 eligible clients | point estimates",
+  "12 × 1,008 outputs | median, IQR (CROWN) | dashed = PGD inner",
+  "CROWN | median over outputs | box = first κ ≥ 1",
+  "336 cases per point | median, q10–q90 | 0.04–0.09 s per LP",
+  "closure: 96 configurations | residual: CROWN, lag-1 LP",
+  "IEEE-754 outward rounding | exact sigmoid | 20,000 of 1,904,472 boxes"
+ ],
+ "titles": [
+  "Model quality on three datasets",
+  "Verifier tightness against PGD inner",
+  "Increment-to-value width ratio κ",
+  "Look-back search cost",
+  "Closure gain and exact 1-D check",
+  "Rigorous enclosure vs the verifier"
+ ],
+ "letters": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f"
+ ],
+ "nums": {
+  "rig_sound": "1,904,472",
+  "rig_n": "1,904,472",
+  "lean_pass": "288",
+  "lean_n": "288"
+ },
+ "imgs": [],
+ "texts": [
+  {
+   "s": "raw-lag network",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "block-mean network",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "day-block network",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "synthetic feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity, jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity, jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "a",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_a"
+  },
+  {
+   "s": "Model quality on three datasets",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_1"
+  },
+  {
+   "s": "evaluation",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "early stopping",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "synthetic",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "label rate",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.440",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.437",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.019",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "12 of 135 eligible clients | point estim",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_1"
+  },
+  {
+   "s": "b",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_b"
+  },
+  {
+   "s": "Verifier tightness against PGD inner",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_2"
+  },
+  {
+   "s": "IBP",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "CROWN",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "α-CROWN",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "raw-lag network",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "block-mean network",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "day-block network",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "12 × 1,008 outputs | median, IQR (CROWN)",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_2"
+  },
+  {
+   "s": "c",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_c"
+  },
+  {
+   "s": "Increment-to-value width ratio κ",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_3"
+  },
+  {
+   "s": "ε = 0.01",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε = 0.1",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "synthetic",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "κ",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "CROWN | median over outputs | box = firs",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_3"
+  },
+  {
+   "s": "d",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_d"
+  },
+  {
+   "s": "Look-back search cost",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_4"
+  },
+  {
+   "s": "336 cases per point | median, q10–q90 | ",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_4"
+  },
+  {
+   "s": "e",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_e"
+  },
+  {
+   "s": "Closure gain and exact 1-D check",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_5"
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "synthetic",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "closure",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "gain",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "|LP − closed form|",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "5",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "13",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−13",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "closure: 96 configurations | residual: C",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_5"
+  },
+  {
+   "s": "f",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_f"
+  },
+  {
+   "s": "Rigorous enclosure vs the verifier",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_6"
+  },
+  {
+   "s": "rigorous enclosure",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1,904,472 / 1,904,472 boxes sound",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "bold",
+   "gid": ""
+  },
+  {
+   "s": "verified checker",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "288 / 288 PASS",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "bold",
+   "gid": ""
+  },
+  {
+   "s": "synthetic feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity, jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity, jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "IEEE-754 outward rounding | exact sigmoi",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_6"
+  },
+  {
+   "s": "AUC",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.7",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.9",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value ÷ inner",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "3",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "10",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "30",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε (training sd)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lag-1 ÷ inner",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "3",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "10",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "30",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε (training sd)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε (training sd)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.01",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.07",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.15",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.27",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.48",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.61",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.73",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.78",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.42",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.73",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.99",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.19",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.57",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.90",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.86",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.82",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.16",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.28",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.50",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.81",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.24",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.69",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.81",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.84",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.76",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.92",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.05",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.20",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.52",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.70",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.72",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.96",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.37",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.57",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.80",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.05",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.46",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.88",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.86",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.96",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.12",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.21",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.37",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.66",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.20",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.79",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.79",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.90",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.58",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.74",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.89",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.02",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.30",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.51",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.60",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.80",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.26",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.42",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.59",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.80",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.13",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.50",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.58",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.81",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.13",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.20",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.35",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.61",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.01",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.53",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.76",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.76",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lag k (h)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "16",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "32",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "64",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "128",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.42",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.45",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.49",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.57",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.70",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.77",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.85",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.86",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.68",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.91",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.12",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.30",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.63",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.92",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.88",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.84",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.59",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.66",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.80",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.01",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.37",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.75",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.84",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.88",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.25",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.34",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.43",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.52",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.71",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.80",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.84",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.96",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.61",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.80",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.97",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.17",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.53",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.90",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.87",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.96",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.44",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.50",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.63",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.86",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.28",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.81",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.80",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.90",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.31",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.35",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.39",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.46",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.76",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.76",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.95",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.96",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.59",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.72",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.85",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.00",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.31",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.60",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.67",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.87",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.52",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.57",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.66",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.85",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.20",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.63",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.81",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.83",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lag k (h)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "16",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "32",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "64",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "128",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε (training sd)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "settled cases (%)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "50",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "cap 40",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε (training sd)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "LPs per case",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "20",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "40",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8.1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.6",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8.1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8.1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8.0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.8",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.3",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.3",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.7",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "5.9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.3",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.5",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "5.9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.2",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.8",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "9.3",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.6",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.2",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "6.1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "12.6",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8.4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "11.6",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8.3",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.5",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "9.5",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8.3",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "5.3",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "5.6",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε (training sd)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "rigorous ÷ verifier",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.7",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.9",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "verifier box width",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "13 below 0.7",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "margin 1e−9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "max 1.4e−12",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "beyond raw float box",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "boxes",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−21",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−17",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−13",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1e−9",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "10,000",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  }
+ ]
+}

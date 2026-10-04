@@ -1,0 +1,1028 @@
+{
+ "stem": "F3",
+ "script": "F3.py",
+ "canvas": {
+  "w": 180.0,
+  "h": 112.0
+ },
+ "audit": [],
+ "pax": [
+  {
+   "name": "b_disp",
+   "x": 64.4,
+   "y_top": 9.2,
+   "w": 41.6,
+   "h": 30.4,
+   "inset_of": null
+  },
+  {
+   "name": "c_m1",
+   "x": 120.4,
+   "y_top": 9.2,
+   "w": 27.4,
+   "h": 30.4,
+   "inset_of": null
+  },
+  {
+   "name": "c_m2",
+   "x": 151.0,
+   "y_top": 9.2,
+   "w": 27.4,
+   "h": 30.4,
+   "inset_of": null
+  },
+  {
+   "name": "c_tent",
+   "x": 152.0,
+   "y_top": 12.2,
+   "w": 11.2,
+   "h": 5.8,
+   "inset_of": "c_m2"
+  },
+  {
+   "name": "d_bracket",
+   "x": 10.6,
+   "y_top": 63.0,
+   "w": 80.6,
+   "h": 34.8,
+   "inset_of": null
+  },
+  {
+   "name": "e_identity",
+   "x": 110.6,
+   "y_top": 63.0,
+   "w": 67.6,
+   "h": 34.8,
+   "inset_of": null
+  }
+ ],
+ "notes": [
+  "400 nested pairs | Georgia | median, q10–q90",
+  "mean ± s.d. | 22–30 displaced cells per δ",
+  "30 instances | 2–6 units | tent case inset",
+  "10–12 unique real patches per setting | verified duals | median, min–max",
+  "Georgia nested pairs | 30 per budget | 7 budgets | exact identity"
+ ],
+ "titles": [
+  "Fused / value-only by tile budget",
+  "Boundary displacement",
+  "Conditioned classes: validity",
+  "Interpolation-completed bracket versus m",
+  "Saving identity audit"
+ ],
+ "letters": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e"
+ ],
+ "nums": {},
+ "imgs": [
+  {
+   "gid": "img_art_1",
+   "kind": "art",
+   "px": [
+    3,
+    4
+   ],
+   "mm": [
+    32.4,
+    30.4
+   ],
+   "dpi": 2.4
+  },
+  {
+   "gid": "img_art_2",
+   "kind": "art",
+   "px": [
+    1,
+    256
+   ],
+   "mm": [
+    1.1,
+    30.4
+   ],
+   "dpi": 23.1
+  }
+ ],
+ "texts": [
+  {
+   "s": "a",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_a"
+  },
+  {
+   "s": "Fused / value-only by tile budget",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_1"
+  },
+  {
+   "s": "1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.99",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.96–1.00",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.99",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.98–1.00",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.00",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.99–1.00",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.81",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.68–0.89",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "–",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "–",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "16",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.66",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.52–0.80",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "–",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.92",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.83–0.98",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "64",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.53",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.34–0.77",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "–",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "–",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "16",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "gradient-tile coarsening",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value-tile coarsening",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.75",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "U/V",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "400 nested pairs | Georgia | median, q10",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_1"
+  },
+  {
+   "s": "b",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_b"
+  },
+  {
+   "s": "Boundary displacement",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_2"
+  },
+  {
+   "s": "Georgia",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Manchester q4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "strip removed",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "swapped",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "mean ± s.d. | 22–30 displaced cells per ",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_2"
+  },
+  {
+   "s": "c",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_c"
+  },
+  {
+   "s": "Conditioned classes: validity",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_3"
+  },
+  {
+   "s": "m = 1 | truth inside 30/30",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "m = 2 | truth inside 30/30",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "truth (block mean)",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "outer range",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "inner range",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "identity",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "tent (×10",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": ")",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "30 instances | 2–6 units | tent case ins",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_3"
+  },
+  {
+   "s": "d",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_d"
+  },
+  {
+   "s": "Interpolation-completed bracket versus m",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_4"
+  },
+  {
+   "s": "Georgia",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Manchester q4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Manchester bad",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Mexico",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "pixel outer Φ′",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "certified bracket",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "exact 1-D theorem, 89 instances",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "max |LP − closed form| = 1.4 × 10",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "10–12 unique real patches per setting | ",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_4"
+  },
+  {
+   "s": "e",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_e"
+  },
+  {
+   "s": "Saving identity audit",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_5"
+  },
+  {
+   "s": "1:1 budget",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "other budgets",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "G = share",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "max identity residual",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "5.9 × 10",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−16",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "  (1:1)",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7.5 × 10",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−10",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "  (all budgets)",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Georgia nested pairs | 30 per budget | 7",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_5"
+  },
+  {
+   "s": " tube bound",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "displacement δ (pixels)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lifted width / tube bound",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "conditioned bound",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−2.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−2.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "5.2",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.5",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.25",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "nodal resolution m",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "excess over witness",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "16",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.03",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.3",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "benefiting mass share (%)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "normalized saving G (%)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "10",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "10",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  }
+ ]
+}

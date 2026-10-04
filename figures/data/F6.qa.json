@@ -1,0 +1,1508 @@
+{
+ "stem": "F6",
+ "script": "F6.py",
+ "canvas": {
+  "w": 180.0,
+  "h": 221.0
+ },
+ "audit": [],
+ "pax": [
+  {
+   "name": "a_series",
+   "x": 27.0,
+   "y_top": 6.6,
+   "w": 151.5,
+   "h": 19.5,
+   "inset_of": null
+  },
+  {
+   "name": "a_brackets",
+   "x": 27.0,
+   "y_top": 27.5,
+   "w": 151.5,
+   "h": 17.700000000000003,
+   "inset_of": null
+  },
+  {
+   "name": "b_w_mlp",
+   "x": 13.0,
+   "y_top": 66.0,
+   "w": 46.0,
+   "h": 16.0,
+   "inset_of": null
+  },
+  {
+   "name": "b_k_mlp",
+   "x": 13.0,
+   "y_top": 89.6,
+   "w": 46.0,
+   "h": 12.5,
+   "inset_of": null
+  },
+  {
+   "name": "b_w_feat",
+   "x": 72.5,
+   "y_top": 66.0,
+   "w": 46.0,
+   "h": 16.0,
+   "inset_of": null
+  },
+  {
+   "name": "b_k_feat",
+   "x": 72.5,
+   "y_top": 89.6,
+   "w": 46.0,
+   "h": 12.5,
+   "inset_of": null
+  },
+  {
+   "name": "b_w_feat24",
+   "x": 132.0,
+   "y_top": 66.0,
+   "w": 46.0,
+   "h": 16.0,
+   "inset_of": null
+  },
+  {
+   "name": "b_k_feat24",
+   "x": 132.0,
+   "y_top": 89.6,
+   "w": 46.0,
+   "h": 12.5,
+   "inset_of": null
+  },
+  {
+   "name": "c_synthetic",
+   "x": 23.0,
+   "y_top": 126.7,
+   "w": 19.5,
+   "h": 20.0,
+   "inset_of": null
+  },
+  {
+   "name": "c_jul2014",
+   "x": 45.5,
+   "y_top": 126.7,
+   "w": 19.5,
+   "h": 20.0,
+   "inset_of": null
+  },
+  {
+   "name": "c_jan2014",
+   "x": 68.0,
+   "y_top": 126.7,
+   "w": 19.5,
+   "h": 20.0,
+   "inset_of": null
+  },
+  {
+   "name": "d_S5",
+   "x": 104.0,
+   "y_top": 126.7,
+   "w": 34.5,
+   "h": 20.0,
+   "inset_of": null
+  },
+  {
+   "name": "d_S2",
+   "x": 142.5,
+   "y_top": 126.7,
+   "w": 34.5,
+   "h": 20.0,
+   "inset_of": null
+  },
+  {
+   "name": "e_synthetic",
+   "x": 31.5,
+   "y_top": 171.3,
+   "w": 17.2,
+   "h": 39.0,
+   "inset_of": null
+  },
+  {
+   "name": "e_jul2014",
+   "x": 51.9,
+   "y_top": 171.3,
+   "w": 17.2,
+   "h": 39.0,
+   "inset_of": null
+  },
+  {
+   "name": "e_jan2014",
+   "x": 72.3,
+   "y_top": 171.3,
+   "w": 17.2,
+   "h": 39.0,
+   "inset_of": null
+  },
+  {
+   "name": "f_matrix",
+   "x": 111.5,
+   "y_top": 171.3,
+   "w": 56.5,
+   "h": 39.0,
+   "inset_of": null
+  }
+ ],
+ "notes": [
+  "client MT_279 | 8–21 Jul 2014 | ε = 0.01 sd | CROWN",
+  "12 × 1,008 outputs | median, IQR (CROWN) | κ at ε = 0.01",
+  "CROWN, ε = 0.01 | dyadic lags | bar median, whisker q90",
+  "CROWN, ε = 0.01 | median, q10–q90 | 282–576 choices",
+  "36 instances per class | 72 intra-day | CROWN, dyadic lags",
+  "28 report times | top-3 of 12 clients | CROWN, ε = 0.01"
+ ],
+ "titles": [
+  "Six window classes on one series",
+  "Enclosure tightness and coherence length",
+  "Normalized saving by window class",
+  "Excess over witness, value-only to fused",
+  "Decision certificates, value-only vs fused",
+  "Top-3 ranking across report times"
+ ],
+ "letters": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f"
+ ],
+ "nums": {
+  "F6_excess_V_jul_dayblock_intraday": "24.9",
+  "F6_excess_Z_jul_dayblock_intraday": "3.1"
+ },
+ "imgs": [],
+ "texts": [
+  {
+   "s": "a",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_a"
+  },
+  {
+   "s": "Six window classes on one series",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_1"
+  },
+  {
+   "s": "nominal risk",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "CROWN value box",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "global range",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "look-back range",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "before/after sign",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "binned trend",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "top-3 ranking",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "intra-day contrasts",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "client MT_279 | 8–21 Jul 2014 | ε = 0.01",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_1"
+  },
+  {
+   "s": "b",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_b"
+  },
+  {
+   "s": "Enclosure tightness and coherence length",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_2"
+  },
+  {
+   "s": "IBP",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "CROWN",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "α-CROWN",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "PGD inner",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "synthetic feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity, jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity, jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "raw-lag network",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "block-mean network",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "day-block network",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "12 × 1,008 outputs | median, IQR (CROWN)",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_2"
+  },
+  {
+   "s": "c",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_c"
+  },
+  {
+   "s": "Normalized saving by window class",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_3"
+  },
+  {
+   "s": "raw-lag network",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "block-mean network",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "day-block network",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "synthetic",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "look-back range",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "before/after sign",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "binned trend",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "intra-day contrasts",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "CROWN, ε = 0.01 | dyadic lags | bar medi",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_3"
+  },
+  {
+   "s": "d",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_d"
+  },
+  {
+   "s": "Excess over witness, value-only to fused",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_4"
+  },
+  {
+   "s": "synthetic feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity, jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity, jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "intra-day contrasts",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "before/after sign",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "CROWN, ε = 0.01 | median, q10–q90 | 282–",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_4"
+  },
+  {
+   "s": "e",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_e"
+  },
+  {
+   "s": "Decision certificates, value-only vs fus",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_5"
+  },
+  {
+   "s": "certified invariant",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "certified sensitive",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "witnessed sensitive",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "open",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "fused",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value-only",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "synthetic",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "before/after sign",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε 0.01",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε 0.02",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "binned trend",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε 0.01",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε 0.02",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "intra-day contrasts",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε 0.01",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε 0.02",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "36 instances per class | 72 intra-day | ",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_5"
+  },
+  {
+   "s": "f",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_f"
+  },
+  {
+   "s": "Top-3 ranking across report times",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_6"
+  },
+  {
+   "s": "1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "21",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "27",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "25",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "synthetic",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "feeders",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "10",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "15",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "12",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jul 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "5",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "7",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "electricity,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "jan 2014",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "28 report times | top-3 of 12 clients | ",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_6"
+  },
+  {
+   "s": "risk f(t)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.6",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "date, July 2014 (day)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "11",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "14",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "17",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "20",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε (training sd)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value-box width",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.0001",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lag k (h)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "κ",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "16",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "64",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε (training sd)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lag k (h)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "16",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "64",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ε (training sd)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "κ = 1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "implied box",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lag k (h)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "16",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "64",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "normalized saving G",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "24.9",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "3.1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "excess over witness",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value-only",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "fused",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "10",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "20",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "50",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value-only",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "fused",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "50",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "instances (%)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "50",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "50",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "report time (day of window)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "15",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "22",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "29",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "36",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "42",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  }
+ ]
+}

@@ -1,0 +1,972 @@
+{
+ "stem": "F5",
+ "script": "F5.py",
+ "canvas": {
+  "w": 180.0,
+  "h": 111.0
+ },
+ "audit": [],
+ "pax": [
+  {
+   "name": "a_q4",
+   "x": 10.5,
+   "y_top": 14.0,
+   "w": 35.0,
+   "h": 32.0,
+   "inset_of": null
+  },
+  {
+   "name": "a_bad",
+   "x": 51.5,
+   "y_top": 14.0,
+   "w": 35.0,
+   "h": 32.0,
+   "inset_of": null
+  },
+  {
+   "name": "b",
+   "x": 124.0,
+   "y_top": 14.0,
+   "w": 52.5,
+   "h": 32.0,
+   "inset_of": null
+  },
+  {
+   "name": "c_q4",
+   "x": 10.5,
+   "y_top": 69.0,
+   "w": 35.0,
+   "h": 31.0,
+   "inset_of": null
+  },
+  {
+   "name": "c_bad",
+   "x": 51.5,
+   "y_top": 69.0,
+   "w": 35.0,
+   "h": 31.0,
+   "inset_of": null
+  },
+  {
+   "name": "d_disp",
+   "x": 102.0,
+   "y_top": 69.0,
+   "w": 36.0,
+   "h": 31.0,
+   "inset_of": null
+  },
+  {
+   "name": "d_decomp",
+   "x": 149.0,
+   "y_top": 69.0,
+   "w": 29.0,
+   "h": 31.0,
+   "inset_of": null
+  }
+ ],
+ "notes": [
+  "8,966 OAs | 60 sampled | median filled, mean open | LP endpoints",
+  "OA truth | ±2 s.e. over 200 noisy replicates | exact LSOA means",
+  "quadratic identity, stored m and ρ | level-up κ: stored result | OA truth",
+  "8,966 OAs | exact arithmetic | 300 re-zonings | medians of 10 replicates"
+ ],
+ "titles": [
+  "Identified-set widths of OA means",
+  "Estimators against OA truth",
+  "Shrinkage risk identity",
+  "Zoning effect vs scale effect"
+ ],
+ "letters": [
+  "a",
+  "b",
+  "c",
+  "d"
+ ],
+ "nums": {
+  "F5.n_oa": "8,966",
+  "F5.kup.q4": "0.298",
+  "F5.kup.bad": "0.045",
+  "F5.kstar.q4": "0.177",
+  "F5.k1.q4": "50.9",
+  "F5.kstar.bad": "0.025",
+  "F5.k1.bad": "54.3",
+  "F5.slope_disp.q4": "0.43",
+  "F5.slope_disp.bad": "0.42",
+  "F5.slm.q4": "0.96",
+  "F5.sls.q4": "0.91",
+  "F5.slm.bad": "0.93",
+  "F5.sls.bad": "0.87",
+  "F5.nrezone": "300"
+ },
+ "imgs": [],
+ "texts": [
+  {
+   "s": "a",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_a"
+  },
+  {
+   "s": "Identified-set widths of OA means",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_1"
+  },
+  {
+   "s": "graph Lipschitz",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "graph total variation",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "mean",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "within-LSOA s.d.",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "qualification",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "bad health",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8,966 OAs | 60 sampled | median filled, ",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_1"
+  },
+  {
+   "s": "b",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_b"
+  },
+  {
+   "s": "Estimators against OA truth",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_2"
+  },
+  {
+   "s": "Level-4 qualification share",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "bad-health share",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "noisy-data mean",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "painting",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "OA truth | ±2 s.e. over 200 noisy replic",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_2"
+  },
+  {
+   "s": "c",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_c"
+  },
+  {
+   "s": "Shrinkage risk identity",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_3"
+  },
+  {
+   "s": "improvement region",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "level-up κ",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "oracle κ*",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "painting",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "qualification",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "bad health",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "quadratic identity, stored m and ρ | lev",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_3"
+  },
+  {
+   "s": "d",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_d"
+  },
+  {
+   "s": "Zoning effect vs scale effect",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_4"
+  },
+  {
+   "s": "same-K re-zoning, q05–q95",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "moved term",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "staying term",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "slopes",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.96 | 0.91",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.93 | 0.87",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8,966 OAs | exact arithmetic | 300 re-zo",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_4"
+  },
+  {
+   "s": "truth excluded",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "budget (× data-implied minimum)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "identified-set width",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.25",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.75",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "truth excluded",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "budget (× data-implied minimum)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.298",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.045",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "R² against OA truth",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.6",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "painting",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "affine GLS",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "energy",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "energy + nugget",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "dasymetric, ecological",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "dasymetric, level-up",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "neural field",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "field, level-up κ",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.177",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.298",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "κ = 1: +50.9 %",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "detail shrinkage κ",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "risk change vs painting (%)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.00",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.15",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.30",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.45",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.60",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.025",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.045",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "κ = 1: +54.3 %",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "detail shrinkage κ",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.00",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.04",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.06",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.08",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−0.04",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.04",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.06",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "log–log slope 0.43",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "log–log slope 0.42",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "OAs moved (share)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "movement / OA → LSOA scale",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.25",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.75",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "move probability q",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "share of movement² (%)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.02",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "25",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "50",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "75",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "100",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  }
+ ]
+}

@@ -1,0 +1,1311 @@
+{
+ "stem": "F1",
+ "script": "F1.py",
+ "canvas": {
+  "w": 180.0,
+  "h": 225.0
+ },
+ "audit": [],
+ "pax": [
+  {
+   "name": "a_strip",
+   "x": 27.749999999999996,
+   "y_top": 17.0,
+   "w": 20.9,
+   "h": 20.6,
+   "inset_of": null
+  },
+  {
+   "name": "a_bracket",
+   "x": 78.65,
+   "y_top": 23.5,
+   "w": 20.5,
+   "h": 9.0,
+   "inset_of": null
+  },
+  {
+   "name": "a_fiber",
+   "x": 104.0,
+   "y_top": 17.0,
+   "w": 20.5,
+   "h": 23.0,
+   "inset_of": null
+  },
+  {
+   "name": "a_laws",
+   "x": 129.34999999999997,
+   "y_top": 17.0,
+   "w": 20.5,
+   "h": 24.0,
+   "inset_of": null
+  },
+  {
+   "name": "a_slope",
+   "x": 154.7,
+   "y_top": 33.8,
+   "w": 20.5,
+   "h": 5.0,
+   "inset_of": null
+  },
+  {
+   "name": "b_risk",
+   "x": 9.6,
+   "y_top": 110.4,
+   "w": 77.5,
+   "h": 21.0,
+   "inset_of": null
+  },
+  {
+   "name": "b_width",
+   "x": 9.6,
+   "y_top": 136.4,
+   "w": 77.5,
+   "h": 14.6,
+   "inset_of": null
+  },
+  {
+   "name": "c_regime",
+   "x": 106.4,
+   "y_top": 110.4,
+   "w": 71.4,
+   "h": 38.6,
+   "inset_of": null
+  },
+  {
+   "name": "d_ladder",
+   "x": 9.6,
+   "y_top": 173.8,
+   "w": 77.5,
+   "h": 34.6,
+   "inset_of": null
+  }
+ ],
+ "notes": [
+  "Georgia, 512² raster | 12-OA window | real-array thumbnails | checker log counts",
+  "client MT_228 | jul 2014 | ε = 0.01 sd | CROWN",
+  "Georgia nested pairs | G: 30 per budget, IQR | U/V: 400, q10–q90",
+  "12 unique patches per setting | verified solves | median, min–max",
+  "Lean 4 + Mathlib | 0 admitted propositions | standard axioms only"
+ ],
+ "titles": [
+  "The certified chain",
+  "A real one-dimensional instance",
+  "When increments pay",
+  "Realization ladder on four settings",
+  "Verification status by stage"
+ ],
+ "letters": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e"
+ ],
+ "nums": {
+  "a1_vmax": "0.05",
+  "pixels": "166,017",
+  "w_med": "0.018",
+  "tracts": "1,937",
+  "strip_ratio": "0.74",
+  "nodes": "666,801",
+  "brL": "1.2033",
+  "brU": "1.4550",
+  "slo": "−0.81",
+  "shi": "−0.10",
+  "parts": "209",
+  "map_ep": "11,588",
+  "pool": "288",
+  "charges": "96"
+ },
+ "imgs": [
+  {
+   "gid": "img_art_1",
+   "kind": "art",
+   "px": [
+    512,
+    512
+   ],
+   "mm": [
+    20.6,
+    20.6
+   ],
+   "dpi": 631.3
+  },
+  {
+   "gid": "img_art_2",
+   "kind": "art",
+   "px": [
+    512,
+    1
+   ],
+   "mm": [
+    20.6,
+    0.9
+   ],
+   "dpi": 631.3
+  },
+  {
+   "gid": "img_art_3",
+   "kind": "art",
+   "px": [
+    145,
+    145
+   ],
+   "mm": [
+    20.0,
+    20.0
+   ],
+   "dpi": 184.1
+  }
+ ],
+ "texts": [
+  {
+   "s": "a",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_a"
+  },
+  {
+   "s": "The certified chain",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_1"
+  },
+  {
+   "s": "Local enclosures",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Fused bound",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Realizable witness",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Map-level bracket",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Identification",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Declared-law",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "inference",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Zoning statistics",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.05",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "box width",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "166,017 pixels",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "median width 0.018",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1,937 tracts",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value box",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lattice closure",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "48-pixel strip",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "closure / box 0.74",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "tile ratio 16 : 1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "pixel h | nodes h/2",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "global nodal field",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "666,801 nodes",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "exact-feasible",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.2033",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.4550",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "global witness",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lifted ceiling",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "reference",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "× reference movement",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "unit means y",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "field f",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "field g",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Gaussian",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "t, 4 df",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "gamma, shape 4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "gamma, shape 1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "family envelope",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−0.81",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "−0.10",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "exact slope range",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "LP bound",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "12 OAs | K = 3",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "209 partitions",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "forward data",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "certificate",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "check",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "conditioning",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "optimizer",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "external",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "p/q",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "exact-rational",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "certificate",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "verified checker",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "compiled",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Lean kernel",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Lean 4 + Mathlib",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "11,588 map endpoints PASS",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "288 pooling instances PASS",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "96 pricing charges kernel-checked",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "certificate",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lane",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Georgia, 512² raster | 12-OA window | re",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_1"
+  },
+  {
+   "s": "b",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_b"
+  },
+  {
+   "s": "A real one-dimensional instance",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_2"
+  },
+  {
+   "s": "nominal f(t)",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value box",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "closure u*, l*",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value box",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "closure",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "PGD inner",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "lag-1 box",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "implied lag-1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "client MT_228 | jul 2014 | ε = 0.01 sd |",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_2"
+  },
+  {
+   "s": "c",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_c"
+  },
+  {
+   "s": "When increments pay",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_3"
+  },
+  {
+   "s": "Georgia nested pairs | G: 30 per budget,",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_3"
+  },
+  {
+   "s": "d",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_d"
+  },
+  {
+   "s": "Realization ladder on four settings",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_4"
+  },
+  {
+   "s": "Georgia",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Manchester q4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Manchester bad",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Mexico",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "pixel Φ′",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Q",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": " + ε",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "X",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "(1)",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "X",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "(2)",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "X",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "L",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "(2)",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "outer set, by refinement",
+   "kind": "text",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "12 unique patches per setting | verified",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_4"
+  },
+  {
+   "s": "e",
+   "kind": "text",
+   "size": 8.0,
+   "weight": "bold",
+   "gid": "letter_e"
+  },
+  {
+   "s": "Verification status by stage",
+   "kind": "text",
+   "size": 7.0,
+   "weight": "normal",
+   "gid": "title_5"
+  },
+  {
+   "s": "theorem",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "checked",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "machine-",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "checker",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "verified",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "certificate",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "rational",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "exact-",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "numerics",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "external",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "local enclosures",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "fused bound",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "288",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "288",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "realizable witness",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "map-level bracket",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "11,588",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "11,588",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "identification",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "declared-law inference",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "zoning statistics",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "48 + 23",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "instance certificates",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "96 charges",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "Lean 4 + Mathlib | 0 admitted propositio",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": "tok_5"
+  },
+  {
+   "s": "risk f(t)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "date (July 2014)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "width",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "8",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "10",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "12",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "14",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.01",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "normalized saving G",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "fused/value-only U/V",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "hollow 16:16",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "value : gradient tile coarsening",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "ratio (G, U/V)",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1:16",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1:4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1:1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "4:1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "16:1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "64:1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.00",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.25",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.50",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.75",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.00",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "witness = 1",
+   "kind": "text",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "outer / witness width",
+   "kind": "axlabel",
+   "size": 6.5,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "0.9",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.0",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.1",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.2",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.3",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.4",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  },
+  {
+   "s": "1.5",
+   "kind": "tick",
+   "size": 6.0,
+   "weight": "normal",
+   "gid": ""
+  }
+ ]
+}

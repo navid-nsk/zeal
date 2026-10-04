@@ -1,0 +1,94 @@
+{
+ "frozen_at": "2026-10-04 02:29",
+ "toolchain": "leanprover/lean4:v4.35.0-rc3",
+ "mathlib_manifest_revs": [
+  "   \"rev\": \"c55e6e786f49471c72fbddbec5415808896aec1e\",",
+  "   \"rev\": \"fb13df72ecefd8ddbf9291021d7f33a8673eb57b\",",
+  "   \"rev\": \"29ff470276c725ae01505d55b17148c18fc7dfd3\",",
+  "   \"rev\": \"7e81a29bda33a6b257bd37557a6aa6aebe175d96\",",
+  "   \"rev\": \"c643bbb3c24f8a25f9c14e3a6b1ceb13d01f3de1\",",
+  "   \"rev\": \"a90fbf7b02ff06a0deebf74088dff9e5fe02c9ea\",",
+  "   \"rev\": \"37b0ba0b26109cf9f9c541f0f9557e50cfa1a3b9\",",
+  "   \"rev\": \"3b7c8101932390d60e92a3f3d917901d5b5a773b\",",
+  "   \"rev\": \"843844fa601dd56767b1eb22b7ada5b64d5e567a\","
+ ],
+ "n_source_files": 37,
+ "source_lines": 7758,
+ "build": {
+  "last_line": "Build completed successfully (8994 jobs).",
+  "warnings": 0,
+  "errors": 0,
+  "axiom_reports": 177,
+  "nonstandard_axiom_reports": [],
+  "seconds": 74.7
+ },
+ "certificate_logs": {
+  "certificates/lean_check_log.md": "787f8bc5dac44cb95b27d975558607c1d86eda94d77a043f36b37070f598da4e",
+  "certificates/export_log.json": "289b7f2d4dfb8586bbb847b58d2ff7f9a9bbf039581bcea9b7af8088fdd23986",
+  "certificates_all/lean_c5_log_georgia.json": "df118eb7d6d2add99ce25bc0c4898d3684e1b785c3ff7dc989f06975a37e7a88",
+  "certificates_all/lean_c5_log_gm_q4.json": "a49b7660f48e81e91a74ba066e956340c10e26d15813fd86688dfc3647e21e4c",
+  "certificates_all/lean_c5_log_gm_bad.json": "08c1eb34ddbb4559812fb74bc4d7ddacfcd8fbd76ea6e92551023061790dbcec",
+  "certificates_all/lean_c5_log_mx_rwi.json": "fed1a385e0bfa45b1b12fe818134f2334a3c4a3e4b7178b1d3a065d273b6ffa6"
+ },
+ "c5_streaming": {
+  "georgia": {
+   "endpoints": 3862,
+   "passed": 3862,
+   "artifact_certified": 3862
+  },
+  "gm_q4": {
+   "endpoints": 3404,
+   "passed": 3404,
+   "artifact_certified": 3404
+  },
+  "gm_bad": {
+   "endpoints": 3404,
+   "passed": 3404,
+   "artifact_certified": 3404
+  },
+  "mx_rwi": {
+   "endpoints": 918,
+   "passed": 918,
+   "artifact_certified": 918
+  }
+ },
+ "manifest": {
+  "MainTheorems.lean": "c403e37ed0c49e87141c69c6ab0a9285943b9c97540008a914f41d1a13f8b3ea",
+  "MainTheorems_M1.lean": "bb6305bd27ef4f255b3f635b2a09b4188fe1d71893080c87377ed8efe76180d7",
+  "Zeal.lean": "60dff47de0460e00f0afda421f114f87467f8580f35d1e6a848cf2a6da74b3e0",
+  "Zeal/Basic.lean": "22c8d7dc0e48e03828197083cd2e2bfda8fb22307a14970cc80fabdb1de876bd",
+  "Zeal/Basic/DifferenceConstraints.lean": "d989ab148843d936c798eb3451ee066655bab79ac7cd3164460476de1b423866",
+  "Zeal/Basic/DirectedGraph.lean": "7b0d78f9d1b45c2da623b64bfc6af3690c9d49c68b3fd272dec5ba60921a7aa0",
+  "Zeal/Basic/WeightedFiniteSet.lean": "15aab84cc512e13d96ff8a8d6a811bd895cd58defe86915400326e1cc764b54b",
+  "Zeal/Certificates/ChargeCertificate.lean": "965fec88e02ad6b84cfb501f32e4f4bac2702a07b7c03c9aee364e0fe2f1e5fa",
+  "Zeal/Certificates/FastChecker.lean": "3a7d6756f09e536c430dcea13207366ea81bbe0ac2ac280b3d8040dc1b80676e",
+  "Zeal/Certificates/NumericalChecker.lean": "e2bd3497b27070eb72488dbd0205ceccfe7f05216ae0b93c9972becf654d831f",
+  "Zeal/Identification/Fibers.lean": "d2a63dcf3f76dfa00a7316366044ec15ee5625d2f3ecafc9d549e63c14e372e7",
+  "Zeal/Identification/Nullspace.lean": "c5c0afff17c467f6aff1bb0cdadc7e98a2f4e8dc94fd57a6955f6d33fbcacdd0",
+  "Zeal/Identification/Reconstruction.lean": "3a7fced0b9bd96c18824b4b712cfb4cefabbbdb1facded564381330b3aa877c2",
+  "Zeal/Realization.lean": "f3bc25f49ac20c9dce040a4b0356aa7b714a426885bb5d27cad16cda769a281a",
+  "Zeal/Realization/BilinearFields.lean": "298d6d6cb9d06e242f3e9551b9d089ea7eb2eff8dc5a818a21a002156d3186da",
+  "Zeal/Realization/LiftedGraph.lean": "991bea5ef8859baa54cf639a129a5fc104af6ab28c6afec5be25127e5ac88657",
+  "Zeal/Realization/OneDimensional.lean": "03fde0bb58400a5d6c77d63e224189bf624b08bbe3010edfb0735a2802b33371",
+  "Zeal/Realization/OuterInner.lean": "3a0b77fa5493ce43dec117f67c76476facb0160fff5170160936f7c5164b6faa",
+  "Zeal/Transport/FeasibleSet.lean": "a344d422c19d2e5aac65fc0f64b4cd26d3720004edeefcf5c031e453c0af631b",
+  "Zeal/Transport/FiniteTransportDuality.lean": "b35328ca75efabdcde33bdf627e2c1dd4cc8f73ccea55a1b83f7d7d452036a30",
+  "Zeal/Transport/GroundedFlowDual.lean": "b6fbcf707b6958867fa8169d155b329e9c6cb1d791f707e759c805d61a86ba6d",
+  "Zeal/Transport/RegimeTheorem.lean": "9055073150302648e087325e26a007eb68bac426707f7f0fd9ca0aff192f58be",
+  "Zeal/Transport/SavingIdentity.lean": "2a4ff23be122ed2c2ad521fed8277d7faa1f33a4a7b4b88e42116fe39219b373",
+  "Zeal/Transport/ShortestPathClosure.lean": "dda01d67b29664f6916d34bdf094195e0ecc184d4f7c13bdbb95b192f4a8885d",
+  "Zeal/Transport/SupportFunction.lean": "552865db230c877ecff5c057fb62002db16479869f73770dbb72f88368903028",
+  "Zeal/Transport/WassersteinReduction.lean": "7e8c6da2ea79f6c36f64eeecd43a7106cd5123b4444dc662ab58ad22a7c864d0",
+  "Zeal/Zoning/ChargedPricing.lean": "8a0ea5f8dd69fe9f9221c330b47aaeef49426112b1ed7e4fc96209fa44b824b0",
+  "Zeal/Zoning/CompleteZonings.lean": "ea6b6cdebe66ef0518d736c6fa3f5d5af58a8f93b72e9437f2cadb561442e462",
+  "Zeal/Zoning/Partitions.lean": "8223c8ba627e97f0c28af77e85ec246d2f8656ddbb4a3f94b463252422b3f020",
+  "Zeal/Zoning/Projection.lean": "cbe9c7b8ad4ecf36c25f87724f70a2a76201ce43adb909ca6840d600e576b8ac",
+  "Zeal/Zoning/SetPartitioning.lean": "6de29e6cad8caf29dbe77056ec846c54eaff064c790d9b9343d35400cc31ac42",
+  "lake-manifest.json": "2a4327a4468c1d2d7c007a0b4a54382a8f90bf6466a752bc13353175b5310b56",
+  "lakefile.toml": "80233553d20d764dafd4a9704c7c3160965ebee5da69ef3f1807e06c324d138b",
+  "lean-toolchain": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47",
+  "scripts/CertCheck.lean": "9d9d8b8dd5fbc8ad4824d35ae0f7e78e17db5381220e2c5f51d941e4781cc4e1",
+  "scripts/CertGen.lean": "859b0bce339256d05b736d840e74c0be22a86907a90934ce8f7d958f5b25735d",
+  "scripts/CertJson.lean": "81ba770e7dc36e5271bf36b07af829cd15e6aa8018bafe3a80264b3c23fe67ac"
+ }
+}

@@ -1,0 +1,32 @@
+# data and results live in the separate data and results packages (ZEAL_DATA_ROOT, ZEAL_RESULTS_ROOT)
+/data/
+/results/
+*.npz
+*.pt
+*.pth
+*.gpkg
+*.tif
+*.zip
+*.7z
+# except the small figure arrays shipped with the figure code
+!figures/data/*.npz
+
+# generated figures and reports
+figures/figures/
+figures/qa_report.md
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Lean build output and caches
+lean/zeal/.lake/
+lean/zeal/certificates_lean/
+lean/certificates_all/kept/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

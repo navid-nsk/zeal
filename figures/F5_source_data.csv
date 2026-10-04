@@ -1,0 +1,137 @@
+panel,variable,quantity,key,value,source
+a,q4,lipschitz_graph_width_median,budget=1.0314;multiple=1.000,0.5593093625417564,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_width_mean,budget=1.0314;multiple=1.000,0.5815339458135772,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_truth_compatible_share,budget=1.0314,1.0,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_width_median,budget=1.5471;multiple=1.500,0.7010019724574762,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_width_mean,budget=1.5471;multiple=1.500,0.7155946043844792,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_truth_compatible_share,budget=1.5471,1.0,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_width_median,budget=2.0628;multiple=2.000,0.8162688793978299,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_width_mean,budget=2.0628;multiple=2.000,0.7994471480562567,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_truth_compatible_share,budget=2.0628,1.0,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_width_median,budget=4.1256;multiple=4.000,1.0,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_width_mean,budget=4.1256;multiple=4.000,0.9277499538917798,results/exp1/A3/a3_manchester.json
+a,q4,lipschitz_graph_truth_compatible_share,budget=4.1256,1.0,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_width_median,budget=818.28;multiple=1.000,-6.8836880640077425e-12,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_width_mean,budget=818.28;multiple=1.000,-1.1254214921097017e-11,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_truth_compatible_share,budget=818.28,0.0,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_width_median,budget=1227.4;multiple=1.500,1.0,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_width_mean,budget=1227.4;multiple=1.500,0.959808155130503,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_truth_compatible_share,budget=1227.4,1.0,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_width_median,budget=1636.6;multiple=2.000,1.0,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_width_mean,budget=1636.6;multiple=2.000,0.959808155130503,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_truth_compatible_share,budget=1636.6,1.0,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_width_median,budget=3273.1;multiple=4.000,1.0,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_width_mean,budget=3273.1;multiple=4.000,0.959808155130503,results/exp1/A3/a3_manchester.json
+a,q4,graphTV_truth_compatible_share,budget=3273.1,1.0,results/exp1/A3/a3_manchester.json
+a,q4,within_LSOA_sd,,0.0630441601271183,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_width_median,budget=0.23483;multiple=1.000,0.11235863352351066,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_width_mean,budget=0.23483;multiple=1.000,0.11988067689850293,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_truth_compatible_share,budget=0.23483,1.0,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_width_median,budget=0.35225;multiple=1.500,0.14380138462041636,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_width_mean,budget=0.35225;multiple=1.500,0.1559457873765138,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_truth_compatible_share,budget=0.35225,1.0,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_width_median,budget=0.46967;multiple=2.000,0.17365977632083196,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_width_mean,budget=0.46967;multiple=2.000,0.17948827736097292,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_truth_compatible_share,budget=0.46967,1.0,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_width_median,budget=0.93934;multiple=4.000,0.2333648273703866,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_width_mean,budget=0.93934;multiple=4.000,0.23604510765672337,results/exp1/A3/a3_manchester.json
+a,bad,lipschitz_graph_truth_compatible_share,budget=0.93934,1.0,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_width_median,budget=275;multiple=1.000,-2.3669295690087466e-12,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_width_mean,budget=275;multiple=1.000,7.854360832065161e-06,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_truth_compatible_share,budget=275,0.0,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_width_median,budget=412.49;multiple=1.500,0.2870445829338444,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_width_mean,budget=412.49;multiple=1.500,0.3459842027659844,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_truth_compatible_share,budget=412.49,1.0,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_width_median,budget=549.99;multiple=2.000,0.2870445829338444,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_width_mean,budget=549.99;multiple=2.000,0.3459842027659844,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_truth_compatible_share,budget=549.99,1.0,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_width_median,budget=1100;multiple=4.000,0.2870445829338444,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_width_mean,budget=1100;multiple=4.000,0.3459842027659844,results/exp1/A3/a3_manchester.json
+a,bad,graphTV_truth_compatible_share,budget=1100,1.0,results/exp1/A3/a3_manchester.json
+a,bad,within_LSOA_sd,,0.025257668583049946,results/exp1/A3/a3_manchester.json
+b,q4,R2_exact_painting,,0.7993391810877697,results/exp1/A3/a3_manchester.json
+b,q4,R2_noisy_mean_painting,se=1.8463728662789956e-05;reps=200,0.7917820189250692,results/exp1/A3/a3_manchester.json
+b,q4,R2_exact_gls_affine_msoa,,0.6959598422550162,results/exp1/A3/a3_manchester.json
+b,q4,R2_noisy_mean_gls_affine_msoa,se=0.0001223500222531369;reps=200,0.6896688941927606,results/exp1/A3/a3_manchester.json
+b,q4,R2_exact_energy_exact,,0.804671967404178,results/exp1/A3/a3_manchester.json
+b,q4,R2_noisy_mean_energy_exact,se=4.0512468727784486e-05;reps=200,0.7957543446661197,results/exp1/A3/a3_manchester.json
+b,q4,R2_exact_energy_nugget_up,,0.8066082404435415,results/exp1/A3/a3_manchester.json
+b,q4,R2_noisy_mean_energy_nugget_up,se=3.778256455868807e-05;reps=200,0.7978579885933432,results/exp1/A3/a3_manchester.json
+b,q4,R2_exact_dasy_ecological,,0.6595060884321069,results/exp1/A3/a3_manchester.json
+b,q4,R2_noisy_mean_dasy_ecological,se=1.8463728662790055e-05;reps=200,0.6519489262694063,results/exp1/A3/a3_manchester.json
+b,q4,R2_exact_dasy_one_level_up,,0.8139202782313802,results/exp1/A3/a3_manchester.json
+b,q4,R2_noisy_mean_dasy_one_level_up,se=1.846372866279016e-05;reps=200,0.8063631160686796,results/exp1/A3/a3_manchester.json
+b,q4,R2_exact_neural_field,,0.6963881872585664,results/exp1/A3/a3_manchester.json
+b,q4,R2_exact_field_shrunk_kappa_up,,0.801965032542358,results/exp2/C3/c3_level_up.json
+b,q4,kappa_up,,0.2984479354408949,results/exp2/C3/c3_level_up.json
+b,bad,R2_exact_painting,,0.45325486339640086,results/exp1/A3/a3_manchester.json
+b,bad,R2_noisy_mean_painting,se=7.001256302726426e-05;reps=200,0.4252318836096439,results/exp1/A3/a3_manchester.json
+b,bad,R2_exact_gls_affine_msoa,,0.28133404522060523,results/exp1/A3/a3_manchester.json
+b,bad,R2_noisy_mean_gls_affine_msoa,se=0.0009559269797724913;reps=200,0.2525601206708845,results/exp1/A3/a3_manchester.json
+b,bad,R2_exact_energy_exact,,0.42849676456333075,results/exp1/A3/a3_manchester.json
+b,bad,R2_noisy_mean_energy_exact,se=0.00014270363834172894;reps=200,0.3951116389884395,results/exp1/A3/a3_manchester.json
+b,bad,R2_exact_energy_nugget_up,,0.45689030163141475,results/exp1/A3/a3_manchester.json
+b,bad,R2_noisy_mean_energy_nugget_up,se=7.708963087350791e-05;reps=200,0.4281221480690527,results/exp1/A3/a3_manchester.json
+b,bad,R2_exact_dasy_ecological,,0.5562660143056264,results/exp1/A3/a3_manchester.json
+b,bad,R2_noisy_mean_dasy_ecological,se=7.001256302726426e-05;reps=200,0.5282430345188696,results/exp1/A3/a3_manchester.json
+b,bad,R2_exact_dasy_one_level_up,,0.569894000237385,results/exp1/A3/a3_manchester.json
+b,bad,R2_noisy_mean_dasy_one_level_up,se=7.001256302726433e-05;reps=200,0.5418710204506282,results/exp1/A3/a3_manchester.json
+b,bad,R2_exact_neural_field,,0.13873493700504425,results/exp1/A3/a3_manchester.json
+b,bad,R2_exact_field_shrunk_kappa_up,,0.453308163528206,results/exp2/C3/c3_level_up.json
+b,bad,kappa_up,,0.04544144745108145,results/exp2/C3/c3_level_up.json
+c,q4,m,,0.8880282531160346,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,rho,,0.15720288946259667,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,kappa_star,,0.1770246486088497,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,two_kappa_star,,0.3540492972176994,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,kappa_up,,0.2984479354408949,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,within_share_W,,0.20066081891223025,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,rel_min_pct,,-2.4712748455389386,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,rel_kappa_up_identity_pct,,-1.3086019826006379,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,rel_kappa_up_stored_pct,,-1.30860198260071,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,rel_kappa1_pct,,50.93929637037904,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,q4,identity_vs_stored_abs_diff_pct,,7.216449660063518e-14,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,m,,0.7555021925034676,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,rho,,0.018585351036569667,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,kappa_star,,0.02459999616279653,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,two_kappa_star,,0.04919999232559306,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,kappa_up,,0.04544144745108145,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,within_share_W,,0.5467451366035992,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,rel_min_pct,,-0.034541527315252125,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,rel_kappa_up_identity_pct,,-0.009748624768060685,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,rel_kappa_up_stored_pct,,-0.009748624768068925,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,rel_kappa1_pct,,54.270101596439666,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+c,bad,identity_vs_stored_abs_diff_pct,,8.239936510889834e-15,results/exp1/A3/a3_manchester.json ; results/exp2/C3/c3_level_up.json
+d,q4,movement_over_scale_oa_msoa,lo=;hi=,1.3576877797898474,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,movement_over_scale_lsoa_msoa,lo=;hi=,0.9183224419509115,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,movement_over_scale_same_K,lo=0.8478981295473146;hi=0.8825275207818974,0.8654403247543772,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,movement_over_scale_disp_q0.02_s1,lo=;hi=,0.18694815828587083,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,movement_over_scale_disp_q0.05_s1,lo=;hi=,0.30080804165298536,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,movement_over_scale_disp_q0.1_s1,lo=;hi=,0.41103659394347003,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,movement_over_scale_disp_q0.2_s1,lo=;hi=,0.5741953205469401,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,movement_over_scale_disp_q0.5_s1,lo=;hi=,0.8423069268317048,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,movement_over_scale_disp_q0.5_s2,lo=;hi=,0.9284453502901611,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,movement_over_scale_disp_q0.5_s4,lo=;hi=,0.9788657438465814,results/exp1/B2/b2_zoning_vs_scale.json
+d,q4,moved_term_share_of_mov2_median,q=0.02;mu_M_median=0.019255442217247155,0.6962384392094809,results/exp1/B2/b2_decomp.json
+d,q4,moved_term_share_of_mov2_median,q=0.05;mu_M_median=0.049166228269787324,0.6933244285869604,results/exp1/B2/b2_decomp.json
+d,q4,moved_term_share_of_mov2_median,q=0.1;mu_M_median=0.096321671319295,0.6948154478752595,results/exp1/B2/b2_decomp.json
+d,q4,moved_term_share_of_mov2_median,q=0.2;mu_M_median=0.1958620006929664,0.694797713272907,results/exp1/B2/b2_decomp.json
+d,q4,moved_term_share_of_mov2_median,q=0.5;mu_M_median=0.48717574144556647,0.7325759561864267,results/exp1/B2/b2_decomp.json
+d,q4,slope_moved,,0.9577244016252474,results/exp1/B2/b2_decomp.json
+d,q4,slope_stay,,0.9076831129482762,results/exp1/B2/b2_decomp.json
+d,bad,movement_over_scale_oa_msoa,lo=;hi=,1.1892826829769672,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,movement_over_scale_lsoa_msoa,lo=;hi=,0.6437338736068603,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,movement_over_scale_same_K,lo=0.6670178436103104;hi=0.6864446867160015,0.6761305543296003,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,movement_over_scale_disp_q0.02_s1,lo=;hi=,0.14823461923765405,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,movement_over_scale_disp_q0.05_s1,lo=;hi=,0.2413937675265046,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,movement_over_scale_disp_q0.1_s1,lo=;hi=,0.3311527869990711,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,movement_over_scale_disp_q0.2_s1,lo=;hi=,0.46867613221721605,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,movement_over_scale_disp_q0.5_s1,lo=;hi=,0.6593233612044306,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,movement_over_scale_disp_q0.5_s2,lo=;hi=,0.7074161398336526,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,movement_over_scale_disp_q0.5_s4,lo=;hi=,0.7386814411884465,results/exp1/B2/b2_zoning_vs_scale.json
+d,bad,moved_term_share_of_mov2_median,q=0.02;mu_M_median=0.01848995611412072,0.6348863980278314,results/exp1/B2/b2_decomp.json
+d,bad,moved_term_share_of_mov2_median,q=0.05;mu_M_median=0.048063494166857006,0.6237916690718361,results/exp1/B2/b2_decomp.json
+d,bad,moved_term_share_of_mov2_median,q=0.1;mu_M_median=0.09753388209571201,0.6135998960813634,results/exp1/B2/b2_decomp.json
+d,bad,moved_term_share_of_mov2_median,q=0.2;mu_M_median=0.19508345640093944,0.6305927540948165,results/exp1/B2/b2_decomp.json
+d,bad,moved_term_share_of_mov2_median,q=0.5;mu_M_median=0.48506903700397364,0.6860846216939591,results/exp1/B2/b2_decomp.json
+d,bad,slope_moved,,0.9262801082909685,results/exp1/B2/b2_decomp.json
+d,bad,slope_stay,,0.8661576208108851,results/exp1/B2/b2_decomp.json

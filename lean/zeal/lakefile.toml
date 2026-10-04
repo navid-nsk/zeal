@@ -1,0 +1,36 @@
+name = "zeal"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["Zeal", "MainTheorems", "MainTheorems_M1", "CertTools"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[lean_lib]]
+name = "Zeal"
+
+[[lean_lib]]
+name = "MainTheorems"
+
+[[lean_lib]]
+name = "MainTheorems_M1"
+
+# certificate.json reader shared by scripts/CertGen.lean and scripts/CertCheck.lean
+[[lean_lib]]
+name = "CertTools"
+srcDir = "scripts"
+roots = ["CertJson"]
+
+# compiled certificate runner (not a default target): `lake build certcheck`
+[[lean_exe]]
+name = "certcheck"
+srcDir = "scripts"
+root = "CertCheck"
