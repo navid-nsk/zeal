@@ -14,8 +14,8 @@ The input data and the computed results are not in this repository. They are dep
 
 | package | content | DOI |
 |---|---|---|
-| data package | rasters, fitted fields, certified enclosures, processed ladders, source tables | [Figshare DOI to be inserted] |
-| results package | every result file used by the paper's figures and tables, certificates | [Figshare DOI to be inserted] |
+| data package | rasters, fitted fields, certified enclosures, processed ladders, source tables | https://figshare.com/s/2c0d4edb13ebdc724f4c |
+| results package | every result file used by the paper's figures and tables, certificates | https://figshare.com/s/2c0d4edb13ebdc724f4c |
 
 ## Repository layout
 
