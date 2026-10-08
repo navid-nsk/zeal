@@ -77,6 +77,22 @@ Run every script from the repository root (`python experiments/a1_transport_test
 (and, for the experiments, `fields/`) on `sys.path` from its own location, so the modules are imported as flat modules
 (`from transport_core import solve_max`). `import zeal` works from the repository root and exposes `zeal.paths`.
 
+## Demo (under five minutes, CPU only)
+
+With the environment installed and the data and results packages unpacked (see the two sections above), the following
+three commands exercise the certifier end to end on small real instances and rebuild one figure (timings on a laptop CPU):
+
+```bash
+python experiments/a1_transport_tests.py --out demo/A1 --trials 5 --pairs 3 --fields gm_q4   # transport identities and verified dual bounds on 3 real pairs; about 5 s
+python zeal/check_c5.py --field gm_q4 --M 4 --max_pairs 1 --out demo                          # independent reconstruction and exact check of one map endpoint; about 2 s
+python figures/F3_prep.py && python figures/F3.py && python figures/qa_check.py F3            # Fig. 3 rebuilt from the deposited results; about 10 s
+```
+
+Expected output: a JSON summary with `0` errors and verified duals for the first command, `reconstruction_ok: true` and a
+PASS verdict for the checked endpoint for the second, and `QA PASSED` with `figures/figures/F3.png` written for the third.
+Checking a deposited exact-rational certificate with the compiled Lean checker takes 0.02 to 0.1 s per file once the Lean
+project is built (section "Lean development"); the complete runs of every stage, with their run times, follow.
+
 ## Reproduction order
 
 The deposited data package already holds every input (stage 1) and the results package every output (stages 2 to 5).
