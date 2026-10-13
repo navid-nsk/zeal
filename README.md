@@ -1,6 +1,6 @@
 # ZEAL: certified ranges over every admissible aggregation
 
-This repository contains the code of the paper *Certifying robustness to the choice of aggregation* by Seyed Navid Mashhadi Moghaddam, Michael Sawada, Anders Knudby and Huhua Cao (University of Ottawa), release 1.0.0:
+This repository contains the code of the paper *Certifying robustness to the choice of aggregation*, release 1.0.0:
 
 - the **certifier**: sound local enclosures of a fitted field are fused into a transport (difference-constraint) outer bound,
   realizable fields give inner witnesses, and the gap between the two is bounded on a lifted mesh;
@@ -234,7 +234,7 @@ inputs by the verified checker (compiled evaluation for the LP endpoints, kernel
 
 ## Citation
 
-Mashhadi Moghaddam, S. N., Sawada, M., Knudby, A. & Cao, H. Certifying robustness to the choice of aggregation (2026). Code: https://github.com/navid-nsk/zeal, release v1.0.0. If you use the data or results packages, please also cite them by their Figshare DOIs (see the table above).
+Certifying robustness to the choice of aggregation (2026; the full citation will be added on publication). Code: https://github.com/navid-nsk/zeal, release v1.0.0. If you use the data or results packages, please also cite them by their Figshare DOIs (see the table above).
 
 ## Licence
 
