@@ -66,7 +66,7 @@
  "titles": [
   "Per-cell certified pair-range widths",
   "Map-level brackets per setting",
-  "Per-pair ratios and sign decisions",
+  "Per-pair ratios and sign resolution",
   "Global witness construction",
   "Exact-rational certificates, verified checker"
  ],
@@ -426,21 +426,21 @@
    "gid": "letter_c"
   },
   {
-   "s": "Per-pair ratios and sign decisions",
+   "s": "Per-pair ratios and sign resolution",
    "kind": "text",
    "size": 7.0,
    "weight": "normal",
    "gid": "title_3"
   },
   {
-   "s": "certified invariant",
+   "s": "sign resolved",
    "kind": "text",
    "size": 6.0,
    "weight": "normal",
    "gid": ""
   },
   {
-   "s": "certified sensitive",
+   "s": "both signs realizable",
    "kind": "text",
    "size": 6.0,
    "weight": "normal",

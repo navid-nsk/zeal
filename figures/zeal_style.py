@@ -69,7 +69,7 @@ SETTING = {
     "mx_rwi":  S(YELLOW, "^", LS_DOT, "Mexico", mec=INK),
 }
 SETTING_ORDER = ["georgia", "gm_q4", "gm_bad", "mx_rwi"]
-SETTING_SHORT = {"georgia": "Georgia", "gm_q4": "Manchester q4", "gm_bad": "Manchester bad", "mx_rwi": "Mexico"}
+SETTING_SHORT = {"georgia": "Georgia", "gm_q4": "Manchester, qualification", "gm_bad": "Manchester, bad health", "mx_rwi": "Mexico"}
 SETTING_LADDER = {"georgia": "tract → county", "gm_q4": "LSOA → MSOA", "gm_bad": "LSOA → MSOA", "mx_rwi": "municipality → state"}
 
 # ----------------------------------------------------------------------------- noise models --

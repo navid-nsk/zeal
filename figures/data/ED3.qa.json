@@ -139,7 +139,7 @@
  "notes": [
   "12 of 135 eligible clients | point estimates",
   "12 × 1,008 outputs | median, IQR (CROWN) | dashed = PGD inner",
-  "CROWN | median over outputs | box = first κ ≥ 1",
+  "CROWN | median over outputs | box = first r ≥ 1",
   "336 cases per point | median, q10–q90 | 0.04–0.09 s per LP",
   "closure: 96 configurations | residual: CROWN, lag-1 LP",
   "IEEE-754 outward rounding | exact sigmoid | 20,000 of 1,904,472 boxes"
@@ -147,7 +147,7 @@
  "titles": [
   "Model quality on three datasets",
   "Verifier tightness against PGD inner",
-  "Increment-to-value width ratio κ",
+  "Increment-to-value width ratio r",
   "Look-back search cost",
   "Closure gain and exact 1-D check",
   "Rigorous enclosure vs the verifier"
@@ -386,7 +386,7 @@
    "gid": "letter_c"
   },
   {
-   "s": "Increment-to-value width ratio κ",
+   "s": "Increment-to-value width ratio r",
    "kind": "text",
    "size": 7.0,
    "weight": "normal",
@@ -470,7 +470,7 @@
    "gid": ""
   },
   {
-   "s": "κ",
+   "s": "r",
    "kind": "text",
    "size": 6.0,
    "weight": "normal",

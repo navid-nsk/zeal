@@ -67,7 +67,7 @@
  "notes": [
   "8,966 OAs | 60 sampled | median filled, mean open | LP endpoints",
   "OA truth | ±2 s.e. over 200 noisy replicates | exact LSOA means",
-  "quadratic identity, stored m and ρ | level-up κ: stored result | OA truth",
+  "quadratic identity, stored ν and ρ | level-up κ: stored result | OA truth",
   "8,966 OAs | exact arithmetic | 300 re-zonings | medians of 10 replicates"
  ],
  "titles": [
@@ -269,7 +269,7 @@
    "gid": ""
   },
   {
-   "s": "quadratic identity, stored m and ρ | lev",
+   "s": "quadratic identity, stored ν and ρ | lev",
    "kind": "text",
    "size": 6.0,
    "weight": "normal",

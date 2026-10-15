@@ -31,7 +31,7 @@ A_ROWLAB_DX, A_ROWT_X, A_COLLAB_DY, A_COLT_DY = 1.0, 3.4, 1.0, 4.6
 B_X0 = 54.6
 BX, BW = 64.4, 41.6
 B_YL = (0.045, 1.3); B_YT = [0.05, 0.1, 0.2, 0.5, 1.0]; B_OFF = [-0.07, -0.025, 0.025, 0.07]; B_XPAD = 0.35; B_MS = 3.0
-B_KEY_X, B_KEY_Y = 80.0, [13.0, 15.8]
+B_KEY_X, B_KEY_Y = 73.0, [13.0, 15.8]
 # ---- c: conditioned classes (two small multiples + tent inset)
 C_X0 = 110.8
 C1X, C2X, CW = 120.4, 151.0, 27.4
@@ -46,6 +46,7 @@ C_XLAB_Y = 44.8
 BAND2 = 55.0
 DX, DW = 10.6, 80.6
 D_KEY_Y, D_AX_Y, D_AX_H = 60.2, 63.0, 34.8
+D_KEY_ROW = 1.3                      # half the spacing of the two key rows of panel d
 D_OFF = [-0.09, -0.03, 0.03, 0.09]; D_MS = 3.0; D_YL = (0.022, 2.4); D_YT = [0.03, 0.1, 0.3, 1.0]; D_XPAD = 0.4
 D_STYLE_X, D_STYLE_Y = 58.0, [66.0, 68.8]
 D_PRINT = (14.0, 92.0); D_PRINT_LH = 3.0
@@ -209,8 +210,9 @@ A.tok(cv, C_X0, TOK1_Y, f"{c['n']} instances | {c['K_min']}–{c['K_max']} units
 d = D["d"]; ms = np.array(d["ms"]); cms = np.array(d["cert_ms"])
 A.head(cv, LET_X, BAND2, "d", "Interpolation-completed bracket versus m", dx=TITLE_DX)
 x = DX
-for s in Z.SETTING_ORDER:
-    st = Z.SETTING[s]; x = key_item(x, D_KEY_Y, "line", Z.SETTING_SHORT[s], st["c"], lw=0, marker=st["mk"], mfc=st["mfc"]) + KEY_GAP
+for i, s in enumerate(Z.SETTING_ORDER):      # two rows of two: the full setting names do not fit one row
+    if i == 2: x = DX
+    st = Z.SETTING[s]; x = key_item(x, D_KEY_Y + (D_KEY_ROW if i >= 2 else -D_KEY_ROW), "line", Z.SETTING_SHORT[s], st["c"], lw=0, marker=st["mk"], mfc=st["mfc"]) + KEY_GAP
 axd = A.pax(fig, cv, DX, D_AX_Y, DW, D_AX_H, name="d_bracket")
 for i, s in enumerate(Z.SETTING_ORDER):
     st = Z.SETTING[s]; e_ = d["settings"][s]
